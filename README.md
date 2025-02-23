@@ -16,6 +16,8 @@ DIY Nintendo Switch (and other systems) controller on a Raspberry Pi Pico
 
 This code allows a Raspberry Pi Pico to control a Nintendo Switch (or other console) using button and joystick inputs connected to the Pico's GPIO pins. Once you have the Pico and the code it can be used for a multitude of things. You can edit the code or if that is not a strong point connect the Pico to an other microcontroller to automate mind-numbing tasks in games like shiny hunting in Pokemon, or jumping rope in Mario, ect. If you have access to a 3d printer you can make your own controller or arcade fight stick. I designed and had PCB made for this but it can just as easily be done on proto board and hand soldering wires. This could be use to built cheep easy custom controllers for anyone. I know just enough to get by and used a lot of resources and the projects of others that I will provide links to, so don't criticize the code too harshly. 
 
+<img width="600" src="Images/20250222_210744.jpg"/> 
+
 
 ## Features
 
