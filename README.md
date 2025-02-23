@@ -60,7 +60,7 @@ For all of the other buttons they are set with an internal pull up resistor, thi
 
 I have included the Gerber files that I used to produce the PCB here as well for any who want them. There is also an image of the schematic I used if any want to make their own.
 
-All of the files if you want to 3D print a controller shell and buttons can be found here, you may have to make an account to download them but they are all free. All of the assembly instructions will be over there as well. I have also included the original scans. The files were too large to upload here. 
+All of the files if you want to 3D print a controller shell and buttons can be found [on my Makerworld upload](https://makerworld.com/en/models/1141897#profileId-1144420), you may have to make an account to download them but they are all free. All of the assembly instructions will be over there as well. The files were too large to upload here. 
 
 If you would like to edit the code I have included all of the source code use to build the .uf2 file as well as the make files that were used. I was using the pico visual studio platform on a windows machine. 
 
