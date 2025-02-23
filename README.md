@@ -51,6 +51,14 @@ To program the Raspberry Pi Pico
 5. Now if you use the the USB cable to connect the Pico to any computer or Nintendo Switch it should register as a controller. That can be tested [here](https://hardwaretester.com/gamepad).
 7. Now all that is left is to wire up buttons to the GPIO pins on the Pico and if you want print/build an enclosure for it.
 
+<img width="400" src="Images/Pico%20Pinout.png"/> 
+<img width="400" src="Images/Sch.png"/> 
+
+For the left analog stick you should wire the 3.3(Out) (Pin 36) to one end of the analog stick X and Y potentiometers, and the analog ground (pin 33)| to the other. Then you should connect the X and Y pins (32 and 31) to their respective wipers.
+
+For all of the other buttons they are set with an internal pull up resistor, this means that you just need to connect their pins to any ground pin to activate them.
+
+
 If you would like to edit the code I have included all of the source code use to build the .uf2 file as well as the make files that were used. I was using the pico visual studio platform on a windows machine. 
 
 ## Credits 
