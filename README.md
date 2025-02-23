@@ -66,8 +66,10 @@ All of the files if you want to 3D print a controller shell and buttons can be f
 
 If you would like to edit the code I have included all of the source code use to build the .uf2 file as well as the make files that were used. I was using the pico visual studio platform on a windows machine. 
 
+I am more active on my Maker world account, that would be the best place to reach out with questions. 
+
 ## Credits 
-a lot of the work was already done on the the [Retro Pico Switch](https://github.com/DavidPagels/retro-pico-switch) project. I used this as my starting point, along with the creators and contributors of [TinyUsb](https://github.com/hathach/tinyusb), the [GP2040-CE](https://github.com/OpenStickCommunity/GP2040-CE) project, and the [MPG](https://github.com/OpenStickCommunity/MPG) project.
+A lot of the work was already done on the the [Retro Pico Switch](https://github.com/DavidPagels/retro-pico-switch) project. I used this as my starting point, along with the creators and contributors of [TinyUsb](https://github.com/hathach/tinyusb), the [GP2040-CE](https://github.com/OpenStickCommunity/GP2040-CE) project, and the [MPG](https://github.com/OpenStickCommunity/MPG) project.
 
 
 
