@@ -29,7 +29,7 @@ Feature list for this project
 
 ## Hardware Limitations
 
-the Pico has 4 analog inputs. Initially I thought this would be great two for the Left Analog Stick X and Y axis, and two for the Right Analog Stick X and Y axis. However it turns out that one of the analog inputs is internal to the RP2040 chip on the Pico and used to read a thermistor. So I was limited to only 3 analog inputs. I choose to use 2 of them for the Left Analog Stick and for the Right Analog Stick I just made them digital buttons. That is not a great solution but was good enough for what I was planning to do. If anyone is feeling ambitious there are extra pins that could be tied to a ADC and read in.
+The Pico has 4 analog inputs. Initially I thought this would be great two for the Left Analog Stick X and Y axis, and two for the Right Analog Stick X and Y axis. However it turns out that one of the analog inputs is internal to the RP2040 chip on the Pico and used to read a thermistor. So I was limited to only 3 analog inputs. I choose to use 2 of them for the Left Analog Stick and for the Right Analog Stick I just made them digital buttons. That is not a great solution but was good enough for what I was planning to do. If anyone is feeling ambitious there are extra pins that could be tied to a ADC and read in.
 
 ## Inspiration
 
@@ -40,6 +40,27 @@ There have been a lot of things in games that I have thought “It would be nice
 - PTS526SK15SMTR2 LFS Push Buttons 0.13$ x12
 - 431256038716 Right Angle Push Button 0.52$ x4
 
+## Setup
+
+To program the Raspberry Pi Pico
+
+1. Hold down the boot sel button on the Pico, and while holding, plug it into your PC via Micro USB cable. (after it has been plugged in you no longer need to hold the boot sel button)
+2. Open the Pico in your File Explorer.
+3. Download the .uf2 file from this project
+4. Drag and drop the .uf2 file to the Pico folder from step 2.
+5. Now if you use the the USB cable to connect the Pico to any computer or Nintendo Switch it should register as a controller. That can be tested [here](https://hardwaretester.com/gamepad).
+7. Now all that is left is to wire up buttons to the GPIO pins on the Pico and if you want print/build an enclosure for it.
+
+If you would like to edit the code I have included all of the source code use to build the .uf2 file as well as the make files that were used. I was using the pico visual studio platform on a windows machine. 
+
+## Credits 
+a lot of the work was already done on the the [Retro Pico Switch](https://github.com/DavidPagels/retro-pico-switch) project. I used this as my starting point, along with the creators and contributors of [TinyUsb](https://github.com/hathach/tinyusb), the [GP2040-CE](https://github.com/OpenStickCommunity/GP2040-CE) project, and the [MPG](https://github.com/OpenStickCommunity/MPG) project.
+
+
+
+
+
+   
 
 
 
