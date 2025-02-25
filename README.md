@@ -1,4 +1,4 @@
-# Pico-Switch-Controller
+# Pico-USB-Game-Pad-Switch-Controller
 DIY Nintendo Switch (and other systems) controller on a Raspberry Pi Pico
 
 ## Table of Contents
